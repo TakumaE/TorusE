@@ -2,8 +2,6 @@
 An embedding model onto a torus for knowledge graph completion.
 Paper: [TorusE: Knowledge Graph Embedding on a Lie Group](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16227)
 
-(Note that TransE is not fully implemented yet.)
-
 ```
 @inproceedings{TorusE,
   author    = {Takuma Ebisu and
