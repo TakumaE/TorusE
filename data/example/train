@@ -1,0 +1,6 @@
+father spouse_of mother
+mother spouse_of father
+son child_of mother
+son child_of father
+daughter child_of father
+daughter sobling_of son
