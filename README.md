@@ -1,5 +1,6 @@
 # TorusE
 An embedding model onto a torus for knowledge graph completion.
+
 Paper: [TorusE: Knowledge Graph Embedding on a Lie Group](https://aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/16227)
 
 ```
@@ -30,14 +31,17 @@ Numpy
 Datasets for this implementation should have three files named as following: train, valid, and test.
 You need to put under the directory, data/datasets_name/.
 Each line in these files represent a triple. For example, a line in a file, son sibling_of daughter, represents the triple (son, sibling_of, daughter).
+
 Example data are in data/example/.
 
 ## Reproduction of the results
 1. Put the datasets WN18 and FB15k under ./data/.
+
 2a. run the following command for FB15k
 ```
 python run.py -reproduce transe-fb15k
 ```
+
 2b. run the following command for WN18
 ```
 python run.py -reproduce transe-wn18
