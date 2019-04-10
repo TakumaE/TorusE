@@ -30,7 +30,7 @@ Numpy
 ## Data Format
 Datasets for this implementation should have three files named as following: train, valid, and test.
 You need to put under the directory, data/datasets_name/.
-Each line in these files represent a triple. For example, a line in a file, son sibling_of daughter, represents the triple (son, sibling_of, daughter).
+Each line in these files represent a triple. For example, a line in a file, "son sibling_of daughter", represents the triple (son, sibling_of, daughter).
 
 Example data are in data/example/.
 
