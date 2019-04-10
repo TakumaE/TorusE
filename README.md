@@ -35,7 +35,7 @@ Each line in these files represent a triple. For example, a line in a file, son 
 Example data are in data/example/.
 
 ## Reproduction of the results
-1. Put the datasets WN18 and FB15k under ./data/.
+1. Put the datasets WN18 and FB15k under ./data/wn18 and ./data/fb15k.
 
 2a. run the following command for FB15k
 ```
