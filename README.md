@@ -15,7 +15,7 @@ Paper: [TorusE: Knowledge Graph Embedding on a Lie Group](https://aaai.org/ocs/i
 
 
 ## Accuracy
-Dataset | MRR | Hits@1 | Hits@3 | Hits@1
+Dataset | MRR | Hits@1 | Hits@3 | Hits@10
 :--- | :---: | :---: | :---: | :---:
 WN18 | 0.947 | 0.943 | 0.950 | 0.954
 FB15k | 0.747 | 0.690 | 0.785 | 0.840
